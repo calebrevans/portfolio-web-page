@@ -1,0 +1,81 @@
+/* sets styles for the body and header elements, the margin and font-family for the body, and the height and background for the header. */
+
+body {
+background:url(images/crem.jpg);
+font-family: Helvetica, serif;
+margin: 0;
+}
+
+header {
+height: 140px;
+background:url(images/download.jpg);
+font-family: Monospace, serif;
+}
+
+/* sets styles for specific elements with the class of "logo" and "header h2" */
+
+.logo {
+font-family: Monospace, serif;
+font-size: 72px;
+color: #FBF2E8;
+text-align: center;
+}
+
+header h2 {
+font-family: Monospace, serif;
+color: #FBF2E8;
+font-size: 18px;
+text-align: center;
+}
+
+/* -Sets font properties for h1-h3, p, li, and a elements, color and text alignment for footer p element, width for img element, border for hr element. */
+
+footer {
+background-color: #073763;
+}
+
+article {
+padding: 0 25%;
+margin: 80px 0;
+}
+
+h1, h2, h3 {
+font-family: Times, sans-serif;
+color: #073763;
+text-align: center;
+font-size: 30px;
+}
+
+h2 {
+font-size: 26px;
+}
+
+h3 {
+font-size: 18px;
+}
+
+p, li {
+font-family: Arial, sans-serif;
+line-height: 1.5em
+margin: 0;
+}
+
+a {
+text-align: center;
+}
+
+
+footer p {
+color: #fff;
+text-align: center;
+padding: 30px;
+margin: 0;
+}
+
+img {
+width: 100%;
+}
+
+hr {
+border: 1px solid #bed0df;
+}
