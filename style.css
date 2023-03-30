@@ -66,6 +66,8 @@ text-align: center;
 
 a:link { color: #6cbd41;}
 a:visited { color: #30fec7;}
+a:hover { color: #6cbd41; }
+a:active { color: #30fec7; }
 
 footer p {
 color: #fff;
